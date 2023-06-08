@@ -135,15 +135,56 @@
 // console.log(plusGrand([1,3,4,1,9,5,18,2,7]));
 
 
-function positif(tableau) {
- let tablo = []
-    for (let i = 0; i < tableau.length; i++) {
-        if (tableau[i] > 0) {
-            tablo.push(tableau[i])
-        }
+// function positif(tableau) {
+//  let tablo = []
+//     for (let i = 0; i < tableau.length; i++) {
+//         if (tableau[i] > 0) {
+//             tablo.push(tableau[i])
+//         }
 
-    }
-    return tablo
+//     }
+//     return tablo
+// }
+
+// console.log(positif([15, -5, -48, 69, 85, -7]));
+
+
+// function prime(s) {
+//     for (let i = 2; i < s - 1; i++) {
+//         if (s % i === 0) {
+
+//             return false
+//         }
+//     }
+//     return true
+
+// }
+// for (let j = 2; j < 500; j++) {
+//     if (prime(j)) {
+//         console.log(j)
+//     }
+// }
+
+
+// let tableauDoublon1 = [1,2,3,5,9];
+// let tableauDoublon2 = [1,2,6,7,8,9];
+// let tableauZeroDoublon = tableauDoublon1;
+
+// function aucunDoublon(tableauZeroDoublon) {
+//     for (let i = 0; i <  tableauDoublon2.length; i++){
+//         if (!tableauDoublon1.includes(tableauDoublon2[i])) {
+//             tableauZeroDoublon.push(tableauDoublon2[i])
+//         } 
+//     }
+//     return tableauZeroDoublon;
+
+// }
+
+// console.log(tableauZeroDoublon);
+
+
+// 14.
+
+for (let i = 0; i < 10; i++){
+    
 }
-
-console.log(positif([15, -5, -48, 69, 85, -7]));
